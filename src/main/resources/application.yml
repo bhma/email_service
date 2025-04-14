@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: email_service
+    mail:
+        host: sandbox.smtp.mailtrap.io
+        port: 2525
+        username: 3ef1b2bdb25549
+        password: a614d758011ece
+        properties:
+            mail: 
+                smtp: 
+                    auth: true
+                    starttls:
+                        enable: true
+    jmx:
+        enabled: false 
